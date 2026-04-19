@@ -17,8 +17,8 @@ The aim of this project is to:
 
 The analysis is based on two datasets:
 
-1. User Dataset (Bright_TV_Dataset): Contains demographic information such as gender, age, and province
-2. Viewership Dataset (Viewer_Ship): Contains viewing activity including channel, timestamp, and duration
+1. User Dataset (user_profiles): Contains demographic information such as gender, age, and province
+2. Viewership Dataset (viewer_ship): Contains viewing activity including channel, timestamp, and duration
 3. These datasets were joined using appropriate SQL joins to create a final enriched dataset. Data cleaning and transformation steps included:
 4. Handling missing values (NULL and 'None')
 5. Standardizing categorical variables (e.g., gender and province)
