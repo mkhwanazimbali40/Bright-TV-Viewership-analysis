@@ -1,6 +1,6 @@
-📺 Bright TV Viewership Analysis
-🔹 Summary
-This project analyses Bright TV’s user and viewership data to uncover patterns in viewing behaviour, audience engagement, and content consumption. By integrating user demographics with viewing activity, the analysis provides meaningful insights that support data-driven decision-making for content strategy and audience targeting.
+#📺 Bright TV Viewership Analysis
+#🔹 Summary
+#This project analyses Bright TV’s user and viewership data to uncover patterns in viewing behaviour, audience engagement, and content consumption. By integrating user demographics with viewing activity, the analysis provides meaningful insights that support data-driven decision-making for content strategy and audience targeting.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 🎯 Aim
 The aim of this project is to:
