@@ -8,23 +8,23 @@ This project analyses Bright TV’s user and viewership data to uncover patterns
 
 The aim of this project is to:
 
-Analyse user viewing behaviour across time, demographics, and regions
-Identify the most popular channels and peak viewing periods
-Understand audience engagement patterns
-Provide actionable recommendations to improve viewer retention and content performance
+1. Analyse user viewing behaviour across time, demographics, and regions
+2. Identify the most popular channels and peak viewing periods
+3. Understand audience engagement patterns
+4. Provide actionable recommendations to improve viewer retention and content performance
 
 📊 Overview
 
 The analysis is based on two datasets:
 
-User Dataset (Bright_TV_Dataset): Contains demographic information such as gender, age, and province
-Viewership Dataset (Viewer_Ship): Contains viewing activity including channel, timestamp, and duration
-These datasets were joined using appropriate SQL joins to create a final enriched dataset. Data cleaning and transformation steps included:
-Handling missing values (NULL and 'None')
-Standardizing categorical variables (e.g., gender and province)
-Converting duration into seconds for accurate aggregation
-Splitting datetime into meaningful components (date, hour, time bucket, etc.)
-The final dataset enabled flexible analysis through pivot tables and visualisations.
+1. User Dataset (Bright_TV_Dataset): Contains demographic information such as gender, age, and province
+2. Viewership Dataset (Viewer_Ship): Contains viewing activity including channel, timestamp, and duration
+3. These datasets were joined using appropriate SQL joins to create a final enriched dataset. Data cleaning and transformation steps included:
+4. Handling missing values (NULL and 'None')
+5. Standardizing categorical variables (e.g., gender and province)
+6. Converting duration into seconds for accurate aggregation
+7. Splitting datetime into meaningful components (date, hour, time bucket, etc.)
+8. The final dataset enabled flexible analysis through pivot tables and visualisations.
 
 🔍 Key Insights
 1. Peak Viewing Time
@@ -53,9 +53,13 @@ The presence of “Unknown” values highlights the need for improved data captu
 🛠️ Tools Used
 
 Databricks (SQL): Data cleaning, transformation, and joins
+
 Microsoft Excel: Pivot tables and data visualisation
+
 PowerPoint: Presentation of insights
+
 Miro: Visualisation of the analytical workflow
 
 ✅ Final Note
+
 This project demonstrates how combining data engineering, analysis, and visualisation techniques can transform raw data into actionable business insights that support strategic decision-making.
