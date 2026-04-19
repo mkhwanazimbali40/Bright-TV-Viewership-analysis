@@ -1,14 +1,16 @@
-#📺 Bright TV Viewership Analysis
-#🔹 Summary
-#This project analyses Bright TV’s user and viewership data to uncover patterns in viewing behaviour, audience engagement, and content consumption. By integrating user demographics with viewing activity, the analysis provides meaningful insights that support data-driven decision-making for content strategy and audience targeting.
--------------------------------------------------------------------------------------------------------------------------------------------------------
+📺 Bright TV Viewership Analysis
+
+🔹 Summary
+
+This project analyses Bright TV’s user and viewership data to uncover patterns in viewing behaviour, audience engagement, and content consumption. By integrating user demographics with viewing activity, the analysis provides meaningful insights that support data-driven decision-making for content strategy and audience targeting.
+
 🎯 Aim
 The aim of this project is to:
 Analyse user viewing behaviour across time, demographics, and regions
 Identify the most popular channels and peak viewing periods
 Understand audience engagement patterns
 Provide actionable recommendations to improve viewer retention and content performance
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📊 Overview
 The analysis is based on two datasets:
 User Dataset (Bright_TV_Dataset): Contains demographic information such as gender, age, and province
@@ -19,7 +21,7 @@ Standardizing categorical variables (e.g., gender and province)
 Converting duration into seconds for accurate aggregation
 Splitting datetime into meaningful components (date, hour, time bucket, etc.)
 The final dataset enabled flexible analysis through pivot tables and visualisations.
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🔍 Key Insights
 1. Peak Viewing Time
 Viewership is highest during the evening hours, indicating that users are most active after work or school. This highlights the importance of prime-time scheduling.
@@ -49,6 +51,6 @@ Databricks (SQL): Data cleaning, transformation, and joins
 Microsoft Excel: Pivot tables and data visualisation
 PowerPoint: Presentation of insights
 Miro: Visualisation of the analytical workflow
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ✅ Final Note
 This project demonstrates how combining data engineering, analysis, and visualisation techniques can transform raw data into actionable business insights that support strategic decision-making.
